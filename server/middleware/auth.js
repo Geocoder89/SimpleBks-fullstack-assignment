@@ -22,6 +22,7 @@ async function basicAuth(req, res, next) {
     // attach user to request object
     req.user = user
 
+    
     next();
 }
 
